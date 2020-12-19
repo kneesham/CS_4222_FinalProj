@@ -7,25 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B0224761258C6A6E001C6F03 /* Protocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0224760258C6A6E001C6F03 /* Protocols.swift */; };
+		B0224764258C7031001C6F03 /* SendViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0224763258C7031001C6F03 /* SendViewModel.swift */; };
+		B03B9FC0258B1680005F952E /* SinglePartJoke.swift in Sources */ = {isa = PBXBuildFile; fileRef = B03B9FBF258B1680005F952E /* SinglePartJoke.swift */; };
 		B04AD7412587488700205B15 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7402587488700205B15 /* AppDelegate.swift */; };
 		B04AD7432587488700205B15 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7422587488700205B15 /* SceneDelegate.swift */; };
-		B04AD7452587488700205B15 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7442587488700205B15 /* ContentView.swift */; };
+		B04AD7452587488700205B15 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7442587488700205B15 /* MainView.swift */; };
 		B04AD7482587488700205B15 /* TedNesham_final.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7462587488700205B15 /* TedNesham_final.xcdatamodeld */; };
 		B04AD74A2587488A00205B15 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04AD7492587488A00205B15 /* Assets.xcassets */; };
 		B04AD74D2587488A00205B15 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B04AD74C2587488A00205B15 /* Preview Assets.xcassets */; };
 		B04AD7502587488A00205B15 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B04AD74E2587488A00205B15 /* LaunchScreen.storyboard */; };
+		B04AD75D2587493700205B15 /* RandomJokeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7592587493600205B15 /* RandomJokeView.swift */; };
+		B04AD75E2587493700205B15 /* SendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD75A2587493700205B15 /* SendView.swift */; };
+		B04AD75F2587493700205B15 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD75B2587493700205B15 /* SearchView.swift */; };
+		B04AD7602587493700205B15 /* FavoritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD75C2587493700205B15 /* FavoritesView.swift */; };
+		B04AD7662587499400205B15 /* JokeService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7632587499300205B15 /* JokeService.swift */; };
+		B04AD7672587499400205B15 /* JokeCards.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7642587499300205B15 /* JokeCards.swift */; };
+		B04AD76A258749AD00205B15 /* SearchResults.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD769258749AD00205B15 /* SearchResults.swift */; };
+		B04AD76D2587F98300205B15 /* Favorite.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD76C2587F98300205B15 /* Favorite.swift */; };
+		B04AD7712588115300205B15 /* FavoriteTwoPart.swift in Sources */ = {isa = PBXBuildFile; fileRef = B04AD7702588115300205B15 /* FavoriteTwoPart.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B0224760258C6A6E001C6F03 /* Protocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Protocols.swift; sourceTree = "<group>"; };
+		B0224763258C7031001C6F03 /* SendViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SendViewModel.swift; sourceTree = "<group>"; };
+		B03B9FBF258B1680005F952E /* SinglePartJoke.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SinglePartJoke.swift; sourceTree = "<group>"; };
 		B04AD73D2587488700205B15 /* TedNesham_final.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TedNesham_final.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B04AD7402587488700205B15 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B04AD7422587488700205B15 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		B04AD7442587488700205B15 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
-		B04AD7472587488700205B15 /* TedNesham_final.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TedNesham_final.xcdatamodel; sourceTree = "<group>"; };
+		B04AD7442587488700205B15 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		B04AD7472587488700205B15 /* TedNesham_final.xcdatamodel */ = {isa = PBXFileReference; explicitFileType = wrapper.xcdatamodel; path = TedNesham_final.xcdatamodel; sourceTree = "<group>"; };
 		B04AD7492587488A00205B15 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B04AD74C2587488A00205B15 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B04AD74F2587488A00205B15 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B04AD7512587488A00205B15 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B04AD7592587493600205B15 /* RandomJokeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RandomJokeView.swift; path = ../../tjndf6_FinalProject/tjndf6_FinalProject/RandomJokeView.swift; sourceTree = "<group>"; };
+		B04AD75A2587493700205B15 /* SendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SendView.swift; path = ../../tjndf6_FinalProject/tjndf6_FinalProject/SendView.swift; sourceTree = "<group>"; };
+		B04AD75B2587493700205B15 /* SearchView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchView.swift; path = ../../tjndf6_FinalProject/tjndf6_FinalProject/SearchView.swift; sourceTree = "<group>"; };
+		B04AD75C2587493700205B15 /* FavoritesView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FavoritesView.swift; path = ../../tjndf6_FinalProject/tjndf6_FinalProject/FavoritesView.swift; sourceTree = "<group>"; };
+		B04AD7632587499300205B15 /* JokeService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JokeService.swift; path = ../../tjndf6_FinalProject/tjndf6_FinalProject/JokeService.swift; sourceTree = "<group>"; };
+		B04AD7642587499300205B15 /* JokeCards.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = JokeCards.swift; path = ../../tjndf6_FinalProject/tjndf6_FinalProject/JokeCards.swift; sourceTree = "<group>"; };
+		B04AD769258749AD00205B15 /* SearchResults.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SearchResults.swift; path = ../../tjndf6_FinalProject/tjndf6_FinalProject/SearchResults.swift; sourceTree = "<group>"; };
+		B04AD76C2587F98300205B15 /* Favorite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Favorite.swift; sourceTree = "<group>"; };
+		B04AD7702588115300205B15 /* FavoriteTwoPart.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoriteTwoPart.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,9 +82,21 @@
 		B04AD73F2587488700205B15 /* TedNesham_final */ = {
 			isa = PBXGroup;
 			children = (
+				B04AD7442587488700205B15 /* MainView.swift */,
 				B04AD7402587488700205B15 /* AppDelegate.swift */,
+				B04AD76C2587F98300205B15 /* Favorite.swift */,
+				B04AD7702588115300205B15 /* FavoriteTwoPart.swift */,
+				B03B9FBF258B1680005F952E /* SinglePartJoke.swift */,
+				B04AD75C2587493700205B15 /* FavoritesView.swift */,
+				B04AD769258749AD00205B15 /* SearchResults.swift */,
+				B04AD75A2587493700205B15 /* SendView.swift */,
+				B0224763258C7031001C6F03 /* SendViewModel.swift */,
+				B04AD75B2587493700205B15 /* SearchView.swift */,
 				B04AD7422587488700205B15 /* SceneDelegate.swift */,
-				B04AD7442587488700205B15 /* ContentView.swift */,
+				B04AD7632587499300205B15 /* JokeService.swift */,
+				B04AD7642587499300205B15 /* JokeCards.swift */,
+				B0224760258C6A6E001C6F03 /* Protocols.swift */,
+				B04AD7592587493600205B15 /* RandomJokeView.swift */,
 				B04AD7492587488A00205B15 /* Assets.xcassets */,
 				B04AD74E2587488A00205B15 /* LaunchScreen.storyboard */,
 				B04AD7512587488A00205B15 /* Info.plist */,
@@ -148,10 +184,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B0224761258C6A6E001C6F03 /* Protocols.swift in Sources */,
 				B04AD7412587488700205B15 /* AppDelegate.swift in Sources */,
+				B04AD75D2587493700205B15 /* RandomJokeView.swift in Sources */,
+				B04AD76D2587F98300205B15 /* Favorite.swift in Sources */,
+				B0224764258C7031001C6F03 /* SendViewModel.swift in Sources */,
+				B04AD75E2587493700205B15 /* SendView.swift in Sources */,
+				B04AD7672587499400205B15 /* JokeCards.swift in Sources */,
+				B04AD75F2587493700205B15 /* SearchView.swift in Sources */,
+				B04AD7602587493700205B15 /* FavoritesView.swift in Sources */,
+				B04AD7712588115300205B15 /* FavoriteTwoPart.swift in Sources */,
+				B04AD7662587499400205B15 /* JokeService.swift in Sources */,
 				B04AD7432587488700205B15 /* SceneDelegate.swift in Sources */,
+				B03B9FC0258B1680005F952E /* SinglePartJoke.swift in Sources */,
 				B04AD7482587488700205B15 /* TedNesham_final.xcdatamodeld in Sources */,
-				B04AD7452587488700205B15 /* ContentView.swift in Sources */,
+				B04AD76A258749AD00205B15 /* SearchResults.swift in Sources */,
+				B04AD7452587488700205B15 /* MainView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
